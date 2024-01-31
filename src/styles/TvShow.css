@@ -1,0 +1,117 @@
+
+*{
+    padding: 0;
+    margin: 0
+  }
+
+/* ShowList.css */
+
+.show-list-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 20px;
+  margin-bottom: 50px;
+}
+
+.show-item {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 15px;
+  margin: 15px;
+  width: 200px;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.show-item:hover {
+  transform: translateY(-5px);
+}
+
+.show-item h3 {
+  margin-top: 0;
+  font-size: 25px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+button {
+  background-color: #4caf50 !important;
+  color: white;
+  border: none;
+  text-align: center;
+  /* text-decoration: none; */
+  display: block;
+  width: 100%;
+  font-size: 14px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+
+/* ShowDetails.css */
+
+.show-details-container {
+  max-width: 600px;
+  padding: 30px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center !important; */
+ margin-left: 400px;
+ 
+}
+
+.show-details-container h3 {
+  margin-top: 0;
+  font-size: 40px;
+  color: #333;
+}
+
+.show-details-container p {
+  font-size:18px;
+  color: #555;
+  margin-bottom: 30px;
+
+}
+
+
+
+/* BookingForm.css */
+
+.booking-form-container {
+  margin-left: 500px;
+  max-width: 500px;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.booking-form-container h2 {
+  margin-bottom: 20px;
+  font-size: 40px;
+  color: #333;
+}
+
+
+.booking-form-container input {
+  padding: 6px;
+  width: 70%;
+  margin-bottom: 30px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+
