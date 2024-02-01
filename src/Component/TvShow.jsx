@@ -30,7 +30,6 @@ const TvShow = () => {
 
   return (
     <>
-      
       {selectedShow ? (
         <ShowDetails show={selectedShow.show} />
       ) : (
