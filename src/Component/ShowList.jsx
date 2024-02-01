@@ -3,7 +3,7 @@ import "../styles/TvShow.css";
 const ShowList = ({ shows, onShowClick }) => {
   return (
     <>
-      <h2 style={{ marginLeft: "500px", fontSize: "50px" }}>Fetching Data</h2>
+      <h2 className="heading">Fetching Data</h2>
       <div className="show-list-container">
         {shows.map((show) => (
           <div key={show.show.id} className="show-item">
